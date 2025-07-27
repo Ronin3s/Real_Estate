@@ -58,22 +58,22 @@ def chatbot_response(session_id: str, user_msg: str) -> str:
     context = session_cache.get(session_id, {"state": "idle", "data": {}, "service": None})
 
     if any(q in msg for q in ["who are you", "what is your name"]):
-        return ("I’m a real estate price prediction chatbot built by Al-Azhar Engineering students.")
+        return ("I’m a real estate price prediction chatbot .")
 
     if "who is the best ml" in msg:
-        return "Sami Eino is the best ML engineer ever! 🔥"
+        return "ONe is the best ML engineer ever! 🔥"
 
     if "who is the best data analyst" in msg:
-        return "Ahmed Nader is the most awesome data analyst! 📊"
+        return "tow is the most awesome data analyst! 📊"
     
     if "who is the best frontend developer" in msg:
-        return "Mohamed Osama is the most awesome developer! 💻"
+        return "three is the most awesome developer! 💻"
 
     if "best player" in msg:
-        return "Ziad Mostafa El Bahr is the GOAT ⚽️"
+        return "four is the GOAT ⚽️"
 
     if "best swimming coach" in msg:
-        return "Captain Solly is the best swimming coach!"
+        return "five is the best swimming coach!"
 
     if "how do you work" in msg:
         return "I use ML to analyze property features and predict prices based on Egyptian real estate data."
