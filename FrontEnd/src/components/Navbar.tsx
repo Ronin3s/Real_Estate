@@ -125,10 +125,8 @@ export function Navbar() {
             </Button>
           </a>
 
-          <a
-            href="http://localhost:8501"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/dashboard"
             className={`rounded-lg shadow px-4 py-2 border transition ${
               theme === "dark"
                 ? "text-white border-[#8e6fff] hover:bg-purple-700"
@@ -136,7 +134,7 @@ export function Navbar() {
             }`}
           >
             Dashboard
-          </a>
+          </Link>
         </div>
       </div>
     </header>
