@@ -96,12 +96,12 @@ const Index = () => {
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-gray-200 rounded-full mr-4"></div>
                     <div>
-                      <h4 className="font-medium">Sarah Johnson</h4>
+                      <h4 className="font-medium">Gehad Rabie</h4>
                       <p className="text-sm text-gray-500">Real Estate Agent</p>
                     </div>
                   </div>
                   <p className="text-gray-600">
-                    "AptPriceSeer has transformed how I help clients set listing prices. The ML-driven
+                    "PropertyPredict has transformed how I help clients set listing prices. The ML-driven
                     predictions are consistently within 5% of final sale prices."
                   </p>
                   <div className="flex mt-4">
@@ -114,7 +114,7 @@ const Index = () => {
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-gray-200 rounded-full mr-4"></div>
                     <div>
-                      <h4 className="font-medium">Michael Chen</h4>
+                      <h4 className="font-medium">Ganna Ahmed</h4>
                       <p className="text-sm text-gray-500">Property Investor</p>
                     </div>
                   </div>
@@ -132,12 +132,12 @@ const Index = () => {
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-gray-200 rounded-full mr-4"></div>
                     <div>
-                      <h4 className="font-medium">Emily Rodriguez</h4>
+                      <h4 className="font-medium">Ahmed Antar</h4>
                       <p className="text-sm text-gray-500">First-time Homebuyer</p>
                     </div>
                   </div>
                   <p className="text-gray-600">
-                    "AptPriceSeer helped me avoid overpaying for my first apartment. The detailed
+                    "PropertyPredict helped me avoid overpaying for my first apartment. The detailed
                     breakdown of value factors was incredibly educational."
                   </p>
                   <div className="flex mt-4">
