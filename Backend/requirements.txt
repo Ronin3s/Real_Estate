@@ -44,11 +44,11 @@ matplotlib-inline==0.1.7
 mdurl==0.1.2
 narwhals==1.45.0
 nest-asyncio==1.6.0
-
+numpy==1.26.4
 packaging==23.2
-pandas==2.2.2
+pandas==2.0.3
 parso==0.8.4
-Pillow==9.5.0
+Pillow>=9.0.0,<10
 platformdirs==4.3.7
 plotly==5.20.0
 prompt_toolkit==3.0.51
@@ -71,7 +71,6 @@ PyQt5_sip==12.16.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
 pytz-deprecation-shim==0.1.0.post0
-
 pyzmq==26.4.0
 referencing==0.36.2
 requests==2.32.4
